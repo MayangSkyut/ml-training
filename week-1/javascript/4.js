@@ -19,4 +19,5 @@ function CurrentDate(){
 
     console.log(CurrentDateFormat)
 }
+
 CurrentDate();

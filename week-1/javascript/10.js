@@ -13,6 +13,7 @@ function number(num1, num2){
       return  (num1 + " " + num2)
     }
 }
+
 try {
     let numbers = number (1, 9)
     console.log(numbers)

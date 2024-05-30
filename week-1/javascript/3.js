@@ -22,4 +22,5 @@ function number(n){
         }
     }
 }
+
 number(15);

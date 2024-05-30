@@ -8,6 +8,6 @@
 function Temperature(n){
     return ((n -32 ) * 5/9 );
 }
-const n = 140;
 
+const n = 140;
 console.log(Temperature(n))

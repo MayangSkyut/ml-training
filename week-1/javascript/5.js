@@ -9,6 +9,6 @@
 function Temperature(n){
     return ((n * 9 / 5) + 32);
 }
-const n = 60;
 
+const n = 60;
 console.log(Temperature(n))

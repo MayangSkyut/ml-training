@@ -14,13 +14,13 @@ function Integer(num){
         return num;
        }
 }
+
     try{
-        const result = Integer("Marian");
+        const result = Integer("7");
         console.log(result);
     }catch (error){
         console.error(error.message)
     }
-
 
 
 

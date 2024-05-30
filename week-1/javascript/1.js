@@ -16,6 +16,4 @@
     console.log(false)
   }
  }
-   
-
  isEven();

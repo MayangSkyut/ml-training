@@ -12,3 +12,18 @@ const entities = {
   '"': "&quot;",
   "'": "&apos;",
 };
+function HtmlEntities(str){
+     const ampersandCode = "&amp;";
+     const lessThanCode = "&lt;";
+     const greaterThanCode = "&gt;";
+     const doubleQuotationCode = "&quot;";
+     const singleQuotationCode = "&apos;";
+
+     return str.replace(ampersandCode, "&")
+                .replace(lessThanCode, "<")
+                .replace(greaterThanCode, ">")
+                .replace(doubleQuotationCode, `"`)
+                .replace(singleQuotationCode, `'`);
+}
+
+console.log(HtmlEntities("&quot;&lt;"));

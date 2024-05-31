@@ -6,3 +6,13 @@
  * Example string: "The quick brown fox jumps over the lazy dog"
  * Expected output: "The Quick Brown Fox Jumps Over The Lazy Dog"
  */
+
+function Upper(str){
+    return str.replace(/\b\w/g, (match) => match.toUpperCase());
+}
+
+    let text = "the quick brown fox jumps over the lazy dog";
+
+    const output = Upper(text);
+    console.log(output)
+

@@ -44,5 +44,5 @@ function ValidationPassword(password) {
     return 'Password is valid';
 }
 
-let input = ValidationPassword('m@Ri@45sKyuT');
+let input = ValidationPassword('mRi@45sKyuT');
 console.log(input);

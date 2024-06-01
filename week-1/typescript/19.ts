@@ -9,3 +9,14 @@
  * @param {number[]} arr2
  * @returns {number[]}
  */
+
+function mergeArray(_arr1 : number [],_arr2 : number []): number[]{
+    let result = [...new Set(_arr1.concat(_arr2))];
+    return result;
+
+}
+let _arr1 =[1,2,3,4,6,7,8,9]
+let _arr2 =[1,2,3,5,6]
+
+let arrays = mergeArray(_arr1, _arr2);
+ console.log(arrays);

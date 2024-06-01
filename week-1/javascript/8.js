@@ -18,5 +18,4 @@ function Vowels (str){
 
 }
 
-
 console.log(Vowels("Maglisod ko"));

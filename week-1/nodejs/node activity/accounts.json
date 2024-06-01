@@ -1,0 +1,30 @@
+[
+    {
+      "id": 7,
+      "name": "Jennie Kim",
+      "email": "jenniekim@blckpnk.com",
+      "password": "jenniekim",
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "name": "Lisa Manoban",
+      "email": "lisamanoban@blckpnk.com",
+      "password": "lisamanoban",
+      "status": "active"
+    },
+    {
+     "id": 9,
+      "username": "Marian Adonay",
+      "email": "marian@blpnk.com",
+    "password": "marian",
+     "status": "active"
+     },
+     {
+        "id": 5,
+        "name": "Christine",
+        "email": "Christine@blckpnk.com",
+        "password": "mae",
+        "status": "active"
+    }
+  ]

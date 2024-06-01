@@ -6,3 +6,12 @@
  * Example string: "The quick brown fox jumps over the lazy dog"
  * Expected output: "The Quick Brown Fox Jumps Over The Lazy Dog"
  */
+
+
+function Upperletter(str: string): string{
+    return str.replace(/\b\w/g, (match) => match.toUpperCase());
+}
+    let input = "try and try until you succeed.alway practice";
+
+    const uppercase = Upperletter(input);
+    console.log(uppercase);

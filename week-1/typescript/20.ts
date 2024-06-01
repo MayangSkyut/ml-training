@@ -7,3 +7,19 @@
  * @param {string} str
  * @returns {string}
  */
+
+function Case(str: string): string{
+    let result = ''
+    for (let b = 0; b < str.length ; b++) {
+
+       if (str[b] === str[b].toUpperCase()){
+            result += str[b].toLowerCase();
+       } else{
+            result += str[b].toUpperCase();  
+       }
+    }
+    return result;
+      }
+      
+
+console.log(Case('Marian Adonay!') );

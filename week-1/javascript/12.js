@@ -12,7 +12,8 @@ function array (arr){
         return (arr)
     }
 }
-try{
+try{ 
+    
     let numberarr = array([1,2,3,4,5])
     console.log(numberarr)
 }
